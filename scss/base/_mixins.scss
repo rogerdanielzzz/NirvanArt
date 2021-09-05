@@ -1,0 +1,11 @@
+/*mixins*/
+/*Mixin con valor de entrada*/
+@mixin size ($ancho, $alto) {
+width: $ancho ;
+height: $alto ;
+}
+
+
+
+    
+

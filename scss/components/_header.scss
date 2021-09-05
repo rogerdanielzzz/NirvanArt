@@ -1,0 +1,29 @@
+
+
+* {
+    scroll-behavior: smooth;
+
+}
+
+/*se agrego animacion de color al footer y header con un box shadows para darle sensacion de profundidad*/
+
+header {
+    nav {
+        /*Extend con la animacion gradiente en header y footer*/
+        @extend %gradiente-animacion;
+
+        ul {
+            li {
+                a {
+                    transition: all 0.25s;
+
+                    &:hover {
+                        transform: scale(1.1);
+
+                    }
+                }
+            }
+        }
+
+    }
+}

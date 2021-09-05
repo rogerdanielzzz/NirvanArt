@@ -1,0 +1,28 @@
+/*se agrego animacion de color al footer y header con un box shadows para darle sensacion de profundidad*/
+
+
+footer {
+    /*Extend con la animacion gradiente en header y footer*/
+
+    @extend %gradiente-animacion;
+
+
+
+
+    div {
+        section {
+            a {
+                img {
+                    transition: all 0.25s;
+
+                    &:hover {
+                        transform: scale(1.1);
+
+                    }
+                }
+            }
+        }
+    }
+
+
+}

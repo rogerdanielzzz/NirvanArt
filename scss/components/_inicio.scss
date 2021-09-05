@@ -1,0 +1,60 @@
+
+
+/**Seccion de bienvenida e inicio**/
+
+/*Se aplico mixins para el desafio*/
+.welcome {
+    @include size(100%, 100%);
+    padding: 270px 0px 270px 0px;
+    position: relative;
+
+
+
+
+    background: url(../Imagen/xvxo_j551_200504.jpg);
+    background-size: cover;
+
+    div {
+        div {
+            Div {
+
+                a {
+                    @include size (15vh, 7vh);
+
+
+                    button {
+                        border-color: white;
+
+                        border-width: 2px;
+                        border-style: solid;
+                        border-radius: 5%;
+                        padding: 2%;
+                        margin: 2vh;
+                        @include button-bg (transparent);
+                        /*mixin condicional , se cumple condicion*/
+                        @include size (15vh, 7vh);
+
+                        &:hover {
+                            /*mixin condicional no se cumple condicion*/
+                            @include button-bg (white)
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+
+
+}
+
+section {
+
+    div {
+        h1 {
+            padding-top: 60px !important;
+        }
+    }
+
+}

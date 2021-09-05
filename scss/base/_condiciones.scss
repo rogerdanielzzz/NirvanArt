@@ -1,0 +1,11 @@
+/*mixins condicionales*/
+@mixin button-bg ($color-bg) {
+    background-color: $color-bg;
+     @if $color-bg == transparent {
+         color: white;
+         
+     } @else {
+         color: black;
+     }
+    
+    }

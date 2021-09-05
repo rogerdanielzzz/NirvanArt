@@ -1,0 +1,11 @@
+
+/*mapa para desafio*/
+.historia-seccion{
+padding: map-get($propiedades-bg , p-bg ) ;
+background-image:map-get($propiedades-bg , gradiente-principal )  ;
+box-shadow:map-get($propiedades-bg , sombra ) ;
+p{
+   font-size: 2.7vh;
+}
+    
+}

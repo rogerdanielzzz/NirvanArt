@@ -1,0 +1,14 @@
+@import '../base/variables';
+@import '../base/extends';
+@import '../base/mixins';
+@import '../base/condiciones';
+@import '../base/maps';
+
+
+.productos-seccion {
+  padding: 80px 0px 40px 0px ;
+
+  background-image: $maincolor;
+  box-shadow: $mainshadow;
+
+}
