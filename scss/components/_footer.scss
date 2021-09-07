@@ -10,17 +10,42 @@ footer {
 
 
     div {
-        section {
-            a {
-                img {
-                    transition: all 0.25s;
+        div {
 
-                    &:hover {
-                        transform: scale(1.1);
+            .footer-left {
+                li {
+                
+                
+                    list-style: none;
+                    a {
+                        color: black    ;
+
+                        text-decoration: none;
+                        transition: all 0.25s;
+
+                        &:hover {
+                            transform: scale(1.5);
+                            
+
+                        }
 
                     }
                 }
             }
+
+            .footer-center {
+                a {
+                    img {
+                        transition: all 0.25s;
+
+                        &:hover {
+                            transform: scale(1.1);
+
+                        }
+                    }
+                }
+            }
+
         }
     }
 

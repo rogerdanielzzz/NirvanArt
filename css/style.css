@@ -171,10 +171,21 @@ footer, header nav {
 footer {
   /*Extend con la animacion gradiente en header y footer*/
 }
-footer div section a img {
+footer div div .footer-left li {
+  list-style: none;
+}
+footer div div .footer-left li a {
+  color: black;
+  text-decoration: none;
   transition: all 0.25s;
 }
-footer div section a img:hover {
+footer div div .footer-left li a:hover {
+  transform: scale(1.5);
+}
+footer div div .footer-center a img {
+  transition: all 0.25s;
+}
+footer div div .footer-center a img:hover {
   transform: scale(1.1);
 }
 
