@@ -42,7 +42,7 @@ header nav ul li a:hover {
   height: 100%;
   padding: 270px 0px 270px 0px;
   position: relative;
-  background: url(../Imagen/xvxo_j551_200504.jpg);
+  background: url(../imagen/bg-mandala.jpg);
   background-size: cover;
 }
 .welcome div div Div a {
@@ -171,21 +171,21 @@ footer, header nav {
 footer {
   /*Extend con la animacion gradiente en header y footer*/
 }
-footer div div .footer-left li {
+footer .footer-left li {
   list-style: none;
 }
-footer div div .footer-left li a {
+footer .footer-left li a {
   color: black;
   text-decoration: none;
   transition: all 0.25s;
 }
-footer div div .footer-left li a:hover {
+footer .footer-left li a:hover {
   transform: scale(1.5);
 }
-footer div div .footer-center a img {
+footer .footer-center a img {
   transition: all 0.25s;
 }
-footer div div .footer-center a img:hover {
+footer .footer-center a img:hover {
   transform: scale(1.1);
 }
 
